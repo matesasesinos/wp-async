@@ -1,0 +1,5 @@
+<?php
+
+/**
+ * Posts utilities
+ */
