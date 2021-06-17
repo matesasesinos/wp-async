@@ -1,14 +1,14 @@
-<?php get_header()?>
+<?php get_header() ?>
 
 <?php
-        // Start the loop.
-        while ( have_posts() ) : the_post();
-  
-    
-            the_content();
+// Start the loop.
+while (have_posts()) : the_post();
 
-            
-        endwhile;
-        ?>
 
-<?php get_footer()?>
+    the_content();
+
+
+endwhile;
+?>
+
+<?php get_footer() ?>
